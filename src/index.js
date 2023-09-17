@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './index.scss';
 import App from './components/App';
+import './assets/fonts/Panama-Demo/Panama-Demo-Regular.otf'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

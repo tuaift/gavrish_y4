@@ -17,3 +17,9 @@ code {
 html, body {
   min-height: 100%;
 }
+@font-face {
+  font-family: "Panama-Demo-Regular";
+  src: local("Panama-Demo-Regular"),
+  url("./assets/fonts/Panama-Demo/Panama-Demo-Regular.otf") format("truetype");
+  font-weight: normal;
+}
