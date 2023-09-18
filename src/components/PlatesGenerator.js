@@ -51,8 +51,7 @@ class PlatesGenerator extends React.Component {
     render() {
         return (
             <div className='plates-generator-wrapper'>
-                <div className='plates-generator'
-                     ref={this.elementRef}>
+                <div className='plates-generator'>
                     <div className='plates-generator__header'>
                         <img src='/images/logo.svg'/>
                         <div className='header__text'>
@@ -96,7 +95,8 @@ class PlatesGenerator extends React.Component {
                             и летом
                         </div>
                     </div>
-                    <div className='plates-generator__composition-container'>
+                    <div className='plates-generator__composition-container'
+                         ref={this.elementRef}>
                         <RandomImage imageStyle={'plate-picture'}
                                      image={ this.state.platePicNumber ? `/images/plates/plate_${this.state.platePicNumber}.png` : undefined}/>
                         <RandomImage imageStyle={'veg-picture'}
